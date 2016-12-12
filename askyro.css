@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .askyro_picture {
+        max-width: 480px;
+        
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .askyro_picture {
+        max-width: 767px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+    .askyro_picture {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+    .askyro_picture {
+        max-width: 1280px;
+    }
+}
